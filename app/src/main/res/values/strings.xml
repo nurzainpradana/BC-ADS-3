@@ -3,4 +3,8 @@
     <string name="text_get_started">Get Started</string>
     <string name="text_hello">Hello</string>
     <string name="text_sudah_menabungkah_hari_ini">Sudah Menabungkah Hari Ini ?</string>
+    <string name="text_blog">Blog</string>
+    <string name="text_other">Other</string>
+    <string name="text_user">User</string>
+    <string name="text_log_out">Log Out</string>
 </resources>

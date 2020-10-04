@@ -26,6 +26,16 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:paddingStart">80dp</item>
         <item name="android:paddingEnd">80dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.Optional">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:background">@drawable/shape_rectangle_red_line</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">80dp</item>
+        <item name="android:paddingEnd">80dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
     <!-- Text View -->
@@ -51,6 +61,19 @@
     <style name="TextView.Normal.White">
         <item name="android:fontFamily">@font/montserrat</item>
         <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TextView.Normal.Red">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Edit Text -->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_rectangle_red_line_radius5</item>
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">4dp</item>
     </style>
 
 </resources>
