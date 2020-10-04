@@ -63,6 +63,7 @@
                 android:layout_marginRight="5dp"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/tv_blog"
                     android:drawablePadding="10dp"
                     android:paddingStart="-40dp"
                     android:paddingTop="45dp"
